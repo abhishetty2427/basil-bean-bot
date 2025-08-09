@@ -1,34 +1,1759 @@
 {
   "restaurant": "Basil & Beans",
   "currency": "INR",
+  "version": 2,
   "sections": [
     {
-      "name": "Starters",
+      "name": "Soups",
       "items": [
         {
-          "id": "st01",
-          "name": "Peri Peri Cottage Cheese Bites",
-          "description": "Cottage cheese bites tossed in peri-peri.",
-          "price": 320,
-          "ingredients": ["cottage cheese", "peri-peri spice", "cornflour", "oil", "salt"],
-          "diet_labels": ["vegetarian"],
-          "spice_level": 3,
-          "macros": { "kcal": 380, "protein_g": 18, "carbs_g": 24, "fat_g": 22 }
+          "id": "sp01",
+          "name": "Manchow Soup",
+          "description": "A hearty Indo\u2011Chinese soup with vegetables and aromatic spices.",
+          "price": 269,
+          "course": "soup",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "sp02",
+          "name": "Sweet Corn Soup",
+          "description": "Sweet corn and vegetables simmered in a light broth.",
+          "price": 269,
+          "course": "soup",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sp03",
+          "name": "Lemon Coriander Soup",
+          "description": "Refreshing soup infused with lemon and coriander.",
+          "price": 269,
+          "course": "soup",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sp04",
+          "name": "Vegetable Clear Soup",
+          "description": "Clear broth with mixed vegetables.",
+          "price": 269,
+          "course": "soup",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sp05",
+          "name": "Tomato Basil Bliss",
+          "description": "Creamy tomato soup with basil.",
+          "price": 269,
+          "course": "soup",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sp06",
+          "name": "Roasted Pumpkin Soup",
+          "description": "Velvety roasted pumpkin soup.",
+          "price": 269,
+          "course": "soup",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
         }
       ]
     },
     {
-      "name": "Mains",
+      "name": "Salads",
       "items": [
         {
-          "id": "mn11",
-          "name": "Thai Basil Stir-Fry Veg",
-          "description": "Wok-tossed vegetables, basil, chili, jasmine rice",
-          "price": 420,
-          "ingredients": ["mixed vegetables", "basil", "soy sauce", "chili", "garlic", "rice"],
-          "diet_labels": ["vegetarian"],
+          "id": "sl01",
+          "name": "Garden Fresh Salad",
+          "description": "Seasonal greens, veggies and light dressing.",
+          "price": 299,
+          "course": "salad",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sl02",
+          "name": "Julienned Salad",
+          "description": "Julienned vegetables tossed with herbs.",
+          "price": 399,
+          "course": "salad",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sl03",
+          "name": "Classic Caesar Salad",
+          "description": "Romaine lettuce, parmesan and caesar dressing.",
+          "price": 419,
+          "course": "salad",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sl04",
+          "name": "Watermelon & Feta Cheese Salad",
+          "description": "Juicy watermelon, feta and mint.",
+          "price": 469,
+          "course": "salad",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Bar Bites",
+      "items": [
+        {
+          "id": "bb01",
+          "name": "Kicchu Papad",
+          "description": "Crispy papad with tangy seasoning.",
+          "price": 219,
+          "course": "starter",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "bb02",
+          "name": "Peanut Chaat",
+          "description": "Roasted peanuts tossed with onions and spices.",
+          "price": 199,
+          "course": "starter",
+          "ingredients": [],
+          "allergens": [
+            "nuts"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "bb03",
+          "name": "Crispy Chana Garlic",
+          "description": "Fried chickpeas with garlic and spice.",
+          "price": 269,
+          "course": "starter",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
           "spice_level": 2,
-          "macros": { "kcal": 520, "protein_g": 16, "carbs_g": 78, "fat_g": 14 }
+          "macros": {}
+        },
+        {
+          "id": "bb04",
+          "name": "Mr. Wangs Bhel",
+          "description": "Chinese bhel with tangy sauce.",
+          "price": 269,
+          "course": "starter",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "bb05",
+          "name": "Bhindi Kurkure",
+          "description": "Crispy okra fried with spices.",
+          "price": 329,
+          "course": "starter",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "bb06",
+          "name": "Pesto Veggie Vol Au Vent",
+          "description": "Puff pastry filled with pesto veggies.",
+          "price": 319,
+          "course": "starter",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "bb07",
+          "name": "Corn & Spinach On Toast",
+          "description": "Creamy corn and spinach on toasted bread.",
+          "price": 399,
+          "course": "starter",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Thin Crust Pizzas",
+      "items": [
+        {
+          "id": "pz01",
+          "name": "Margherita Pizza",
+          "description": "Classic cheese and basil pizza.",
+          "price": 619,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "pz02",
+          "name": "Farmers Pride Pizza",
+          "description": "Loaded with fresh veggies and cheese.",
+          "price": 699,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "pz03",
+          "name": "Manchurian Pizza",
+          "description": "Fusion pizza topped with veg manchurian.",
+          "price": 699,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "soy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "pz04",
+          "name": "Paneer Tikka Pizza",
+          "description": "Topped with paneer tikka.",
+          "price": 719,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "pz05",
+          "name": "Popeye's Favorite Pizza",
+          "description": "Spinach and cheese pizza.",
+          "price": 719,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "pz06",
+          "name": "Jamaican Jerk Pizza",
+          "description": "Topped with jerk seasoned veggies.",
+          "price": 699,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "pz07",
+          "name": "Tandoori Broccoli Pizza",
+          "description": "Broccoli marinated in tandoori spices on a pizza base.",
+          "price": 699,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "pz08",
+          "name": "Four Cheese Pizza",
+          "description": "Four different cheeses melted to perfection.",
+          "price": 719,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Tandoori Tikkas",
+      "items": [
+        {
+          "id": "tk01",
+          "name": "Avadhi Style Koyla Aloo",
+          "description": "Potatoes cooked in Avadhi spices.",
+          "price": 449,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "tk02",
+          "name": "Chimichurri Stuffed Tandoori Mushroom",
+          "description": "Mushrooms stuffed with chimichurri sauce.",
+          "price": 449,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "tk03",
+          "name": "Malai Soya Chaap",
+          "description": "Creamy soya chaap cooked in the tandoor.",
+          "price": 449,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "tk04",
+          "name": "Kalimiri Paneer Tikka",
+          "description": "Paneer tikka with black pepper.",
+          "price": 479,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "tk05",
+          "name": "Tandoori Paneer Tikka",
+          "description": "Classic paneer tikka.",
+          "price": 479,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "tk06",
+          "name": "Tandoori Vegetable Skewer",
+          "description": "Vegetables marinated and grilled in a skewer.",
+          "price": 479,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "tk07",
+          "name": "Thecha Paneer",
+          "description": "Paneer coated with green chilli thecha.",
+          "price": 499,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 3,
+          "macros": {}
+        },
+        {
+          "id": "tk08",
+          "name": "Pineapple Paneer Tikka",
+          "description": "Paneer and pineapple chunks grilled together.",
+          "price": 499,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Tacos",
+      "items": [
+        {
+          "id": "tc01",
+          "name": "Creamy Mushroom Tacos",
+          "description": "Soft tacos filled with creamy mushrooms.",
+          "price": 419,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "tc02",
+          "name": "Beetroot and Feta Tacos",
+          "description": "Roasted beetroot and feta cheese in tacos.",
+          "price": 419,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "tc03",
+          "name": "Jackfruit Tinga Tacos",
+          "description": "Smoky jackfruit filling with Mexican spices.",
+          "price": 419,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "tc04",
+          "name": "Crispy Avocado Tacos (4 Pc)",
+          "description": "Crispy fried avocado slices served in tacos.",
+          "price": 499,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "id": "sw01",
+          "name": "Bombay Sandwich",
+          "description": "Classic Bombay style sandwich with veggies and chutneys.",
+          "price": 249,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "sw02",
+          "name": "Junglee Sandwich",
+          "description": "Loaded sandwich with spiced veg filling.",
+          "price": 289,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "sw03",
+          "name": "Paneer Tikka Sandwich",
+          "description": "Paneer tikka filling grilled in bread.",
+          "price": 319,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "sw04",
+          "name": "Roasted Veggies & Hummus Sourdough",
+          "description": "Sourdough bread with roasted veggies and hummus.",
+          "price": 329,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "sw05",
+          "name": "Truffle Mushroom & Caramelised Onion Sandwich",
+          "description": "Aromatic mushrooms and onions with truffle oil.",
+          "price": 349,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "sw06",
+          "name": "Greek Salad Roll",
+          "description": "Wrap with Greek salad ingredients.",
+          "price": 399,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sw07",
+          "name": "Avocado Chickpea Cream Cheese Roll",
+          "description": "Roll with creamy avocado, chickpeas and cream cheese.",
+          "price": 419,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Croissant Sandwiches",
+      "items": [
+        {
+          "id": "cs01",
+          "name": "Caprese Croissant Sandwich",
+          "description": "Buttery croissant filled with mozzarella, tomato and basil.",
+          "price": 399,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "cs02",
+          "name": "Avocado and Herb Cream Cheese Croissant",
+          "description": "Croissant sandwich with avocado and herb cream cheese.",
+          "price": 429,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Pastas",
+      "items": [
+        {
+          "id": "pa01",
+          "name": "Spaghetti Aglio Olio",
+          "description": "Spaghetti tossed with garlic, olive oil and chilli.",
+          "price": 499,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "pa02",
+          "name": "Spaghetti Arrabbiata",
+          "description": "Spicy tomato based spaghetti.",
+          "price": 499,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "pa03",
+          "name": "Fusilli in Mamma Rosa",
+          "description": "Fusilli pasta in a creamy tomato sauce.",
+          "price": 499,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "pa04",
+          "name": "Spaghetti Pesto with Sundried Tomato & Olives",
+          "description": "Pesto coated spaghetti with sundried tomatoes and olives.",
+          "price": 499,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "nuts"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "pa05",
+          "name": "Mac and Cheese",
+          "description": "Creamy macaroni and cheese.",
+          "price": 519,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "pa06",
+          "name": "Truffle Penne Alfredo",
+          "description": "Penne pasta in a rich truffle alfredo sauce.",
+          "price": 499,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "pa07",
+          "name": "Vegetable Lasagna",
+          "description": "Layered pasta sheets with vegetables and cheese.",
+          "price": 629,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "pa08",
+          "name": "Rosso Gnocchi",
+          "description": "Potato gnocchi in a red sauce.",
+          "price": 499,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "pa09",
+          "name": "Butter & Herb Tossed Gnocchi",
+          "description": "Gnocchi tossed in butter and herbs.",
+          "price": 499,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Indian Mains",
+      "items": [
+        {
+          "id": "im01",
+          "name": "Methi Malai Mutter",
+          "description": "Green peas cooked in creamy fenugreek gravy.",
+          "price": 379,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "im02",
+          "name": "Sabz Jalfrezi",
+          "description": "Stir\u2011fried mixed vegetables in a tangy sauce.",
+          "price": 399,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "im03",
+          "name": "Subzi Chili Mili",
+          "description": "Mixed vegetables tossed with chilli and spices.",
+          "price": 409,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 3,
+          "macros": {}
+        },
+        {
+          "id": "im04",
+          "name": "Mushroom Korma",
+          "description": "Mushrooms cooked in rich, spiced gravy.",
+          "price": 419,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "im05",
+          "name": "Paneer Kurchan",
+          "description": "Paneer strips tossed in a spicy masala.",
+          "price": 449,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "im06",
+          "name": "Palak Paneer Roulade",
+          "description": "Spinach wrapped paneer roulade in tomato gravy.",
+          "price": 469,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "im07",
+          "name": "Malai Kofta Curry",
+          "description": "Soft cottage cheese and potato dumplings in creamy gravy.",
+          "price": 469,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Asian Mains",
+      "items": [
+        {
+          "id": "am01",
+          "name": "Fresh Cottage Cheese In Schezwan Sauce",
+          "description": "Crisp fried paneer cubes tossed in schezwan sauce.",
+          "price": 379,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 3,
+          "macros": {}
+        },
+        {
+          "id": "am02",
+          "name": "Fresh Cottage Cheese In Kung Pao Gravy",
+          "description": "Paneer cooked in spicy kung pao gravy.",
+          "price": 379,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy",
+            "nuts"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 3,
+          "macros": {}
+        },
+        {
+          "id": "am03",
+          "name": "Veg Manchurian Gravy",
+          "description": "Vegetable balls in Indo\u2011Chinese gravy.",
+          "price": 399,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "am04",
+          "name": "Green/Red Thai Curry",
+          "description": "Aromatic thai curry with vegetables and coconut milk.",
+          "price": 409,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "am05",
+          "name": "Burmese Khow Suey",
+          "description": "Noodle dish in coconut curry sauce with condiments.",
+          "price": 419,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy",
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Sizzlers & Platters",
+      "items": [
+        {
+          "id": "sz01",
+          "name": "Assorted Bruschetta",
+          "description": "An assortment of bruschetta toppings on toasted bread.",
+          "price": 899,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sz02",
+          "name": "Asian Fusion Sizzler",
+          "description": "Sizzler with Shanghai paneer, chilli garlic rice and veggies.",
+          "price": 999,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "sz03",
+          "name": "Indian Sizzler",
+          "description": "Sizzler with vegetable cutlet, rice and Indian sauces.",
+          "price": 999,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "sz04",
+          "name": "European Sizzler",
+          "description": "Blend of pasta in basil pesto sauce served on a sizzler.",
+          "price": 1199,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "sz05",
+          "name": "Mexican Rice & Enchilada Sizzler",
+          "description": "Cheese stuffed enchilladas, Mexican rice and nachos.",
+          "price": 1199,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "sz06",
+          "name": "Asian Fusion Sizzler (Jain)",
+          "description": "Jain version of Asian fusion sizzler with no onion or garlic.",
+          "price": 1199,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Asian Rice and Noodles",
+      "items": [
+        {
+          "id": "rn01",
+          "name": "Schezwan Fried Rice",
+          "description": "Spicy and bold fried rice in schezwan sauce.",
+          "price": 389,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 3,
+          "macros": {}
+        },
+        {
+          "id": "rn02",
+          "name": "Singaporian Fried Rice",
+          "description": "Flavourful fried rice with veggies and Singapore spices.",
+          "price": 419,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "rn03",
+          "name": "Blue Pea Edamame Fried Rice",
+          "description": "Blue pea infused fried rice with edamame.",
+          "price": 529,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "rn04",
+          "name": "Burnt Garlic Noodles",
+          "description": "Noodles tossed in fragrant garlic and herbs.",
+          "price": 399,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "rn05",
+          "name": "Chili Basil Noodles",
+          "description": "Spicy and aromatic noodles with flavours of basil and chilli.",
+          "price": 419,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 3,
+          "macros": {}
+        },
+        {
+          "id": "rn06",
+          "name": "Udon Vegetable Noodles",
+          "description": "Thick Japanese noodles stir\u2011fried with vegetables.",
+          "price": 419,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Corporate Meals",
+      "items": [
+        {
+          "id": "cm01",
+          "name": "Dal Khichadi Bowl",
+          "description": "Moong dal and rice infused with ghee and mild spices.",
+          "price": 299,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "cm02",
+          "name": "Pindi Chhole With Kulcha",
+          "description": "Tangy and spicy chickpeas served with soft kulcha.",
+          "price": 339,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "cm03",
+          "name": "Veg Kadai With Roti",
+          "description": "Mixed vegetables simmered in aromatic spices with roti.",
+          "price": 339,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "cm04",
+          "name": "Yellow Rice With Tomato Saar",
+          "description": "Mildly spiced yellow rice paired with tangy tomato sauce.",
+          "price": 339,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "cm05",
+          "name": "Paneer Butter Masala Rice Bowl",
+          "description": "Cottage cheese cubes in buttery tomato gravy served with rice.",
+          "price": 339,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "cm06",
+          "name": "Paneer Manchurian Rice Bowl",
+          "description": "Crispy paneer tossed in manchurian sauce over rice.",
+          "price": 339,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "cm07",
+          "name": "Red Thai Curry Bowl",
+          "description": "Red thai curry packed with veggies and coconut milk served with rice.",
+          "price": 339,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "soy"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "cm08",
+          "name": "Paneer Shahslik Bowl",
+          "description": "Grilled paneer skewers in spicy shashlik sauce served with rice.",
+          "price": 339,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Monsoon Specials",
+      "items": [
+        {
+          "id": "ms01",
+          "name": "Assorted Pakora Basket",
+          "description": "Assortment of onion, potato and chilli pakoras served crisp.",
+          "price": 289,
+          "course": "starter",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "ms02",
+          "name": "Spiced Sweet Potato Tikki Chaat",
+          "description": "Pan\u2011fried sweet potato and chickpea tikkis served with chutneys.",
+          "price": 349,
+          "course": "starter",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "ms03",
+          "name": "Tandoori Mushroom Baby Potato Skewers",
+          "description": "Smoky, spiced mushrooms and baby potatoes char\u2011grilled.",
+          "price": 369,
+          "course": "starter",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "ms04",
+          "name": "Korean Gochujang Paneer Bites",
+          "description": "Crispy paneer cubes tossed in a spicy\u2011sweet gochujang sauce.",
+          "price": 399,
+          "course": "starter",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 3,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Dal Rice and Biryani",
+      "items": [
+        {
+          "id": "db01",
+          "name": "Lassoni Dal Tadka",
+          "description": "Fragrant lentil dish tempered with garlic.",
+          "price": 409,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "db02",
+          "name": "Makkhan Wali Dal Makhani",
+          "description": "Creamy black lentils slow cooked with butter.",
+          "price": 409,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "db03",
+          "name": "Steamed Rice",
+          "description": "Plain steamed basmati rice.",
+          "price": 249,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "db04",
+          "name": "Jeera Rice",
+          "description": "Basmati rice infused with cumin seeds.",
+          "price": 339,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "db05",
+          "name": "Dal Tadka",
+          "description": "Hearty and wholesome lentil curry tempered with spices.",
+          "price": 349,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        },
+        {
+          "id": "db06",
+          "name": "Subz Dum Biryani",
+          "description": "Vegetarian biryani cooked on dum with spices and aromatics.",
+          "price": 489,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "db07",
+          "name": "Kathal Biryani",
+          "description": "Biryani made with tender jackfruit.",
+          "price": 489,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "db08",
+          "name": "Paneer Tikka Biryani",
+          "description": "Biryani featuring smoky paneer tikka.",
+          "price": 519,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 2,
+          "macros": {}
+        },
+        {
+          "id": "db09",
+          "name": "Dal Khichidi Tadka [Bb]",
+          "description": "Lentils and rice cooked together and tempered with spices.",
+          "price": 349,
+          "course": "main",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 1,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Raita",
+      "items": [
+        {
+          "id": "rt01",
+          "name": "Curd",
+          "description": "Cooling and creamy curd, perfect side dish.",
+          "price": 99,
+          "course": "side",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "rt02",
+          "name": "Boondi Raita/Vegetable Raita",
+          "description": "Crunchy boondi or vegetable raita.",
+          "price": 169,
+          "course": "side",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "rt03",
+          "name": "Pineapple Raita",
+          "description": "Sweet pineapple pieces mixed in yoghurt.",
+          "price": 199,
+          "course": "side",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Breads",
+      "items": [
+        {
+          "id": "br01",
+          "name": "Roti",
+          "description": "Soft unleavened whole wheat flatbread.",
+          "price": 89,
+          "course": "side",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "br02",
+          "name": "Tandoori Kulcha",
+          "description": "Plain, butter, garlic or cheese kulcha baked in tandoor.",
+          "price": 119,
+          "course": "side",
+          "ingredients": [],
+          "allergens": [
+            "gluten",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "br03",
+          "name": "Paratha",
+          "description": "Layered flaky paratha.",
+          "price": 129,
+          "course": "side",
+          "ingredients": [],
+          "allergens": [
+            "gluten"
+          ],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
         }
       ]
     },
@@ -36,13 +1761,860 @@
       "name": "Desserts",
       "items": [
         {
+          "id": "ds01",
+          "name": "Gulab Jamun",
+          "description": "Soft, melt\u2011in\u2011your\u2011mouth dumplings made from khoya.",
+          "price": 229,
+          "course": "dessert",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ds02",
+          "name": "Moong Dal Halwa",
+          "description": "Rich Indian dessert made from moong dal and ghee.",
+          "price": 249,
+          "course": "dessert",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ds03",
+          "name": "Motichoor Rabdi Petit",
+          "description": "Fusion of soft motichoor and rabdi.",
+          "price": 399,
+          "course": "dessert",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ds04",
+          "name": "Strawberry White Chocolate Petit",
+          "description": "Fresh strawberries and white chocolate mousse.",
+          "price": 399,
+          "course": "dessert",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
           "id": "ds05",
-          "name": "Chocolate Mousse",
-          "description": "Dark chocolate mousse topped with sea salt",
-          "price": 260,
-          "ingredients": ["dark chocolate", "cream", "sugar", "sea salt"],
-          "diet_labels": ["vegetarian"],
-          "macros": { "kcal": 310, "protein_g": 6, "carbs_g": 28, "fat_g": 20 }
+          "name": "Gulab Jamun Cheesecake",
+          "description": "Classic Indian and Western fusion cheesecake.",
+          "price": 399,
+          "course": "dessert",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ds06",
+          "name": "Hazelnut Praline Pull Me Up",
+          "description": "Layers of rich hazelnut praline dessert.",
+          "price": 449,
+          "course": "dessert",
+          "ingredients": [],
+          "allergens": [
+            "nuts",
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Soft Beverages",
+      "items": [
+        {
+          "id": "sb01",
+          "name": "Soda",
+          "description": "Classic carbonated refreshment.",
+          "price": 119,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sb02",
+          "name": "Buttermilk",
+          "description": "Lightly spiced traditional buttermilk.",
+          "price": 149,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sb03",
+          "name": "Fresh Lime Soda",
+          "description": "Zesty lime soda available sweet, salty or both.",
+          "price": 149,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sb04",
+          "name": "Fresh Lime Water",
+          "description": "Tangy lime cooler.",
+          "price": 119,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sb05",
+          "name": "Diet Coke",
+          "description": "Zero sugar cola.",
+          "price": 149,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sb06",
+          "name": "Sprite",
+          "description": "Crisp lemon\u2011lime soda.",
+          "price": 149,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sb07",
+          "name": "Ginger Ale",
+          "description": "Spicy\u2011sweet ginger soda.",
+          "price": 149,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sb08",
+          "name": "Tonic Water",
+          "description": "Bitter and bubbly \u2013 ideal solo or mixer.",
+          "price": 149,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "sb09",
+          "name": "Redbull",
+          "description": "Energy drink.",
+          "price": 249,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Juices",
+      "items": [
+        {
+          "id": "ju01",
+          "name": "Purple Booster",
+          "description": "Healthy juice blend.",
+          "price": 449,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ju02",
+          "name": "Green Detox",
+          "description": "Detoxifying green juice.",
+          "price": 449,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ju03",
+          "name": "Refresho",
+          "description": "Refreshing juice blend.",
+          "price": 449,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ju04",
+          "name": "Pineapple",
+          "description": "Fresh pineapple juice.",
+          "price": 299,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ju05",
+          "name": "Watermelon",
+          "description": "Fresh watermelon juice.",
+          "price": 299,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "House Teas",
+      "items": [
+        {
+          "id": "ht01",
+          "name": "English Breakfast Tea",
+          "description": "Traditional black tea.",
+          "price": 179,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ht02",
+          "name": "Lemon Tea",
+          "description": "Black tea with a hint of lemon.",
+          "price": 189,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ht03",
+          "name": "Green Tea",
+          "description": "Healthy green tea.",
+          "price": 189,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ht04",
+          "name": "Bombay Masala Chai",
+          "description": "Indian spiced tea.",
+          "price": 199,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ht05",
+          "name": "Chamomile Tea",
+          "description": "Relaxing chamomile brew.",
+          "price": 229,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Hot Coffee",
+      "items": [
+        {
+          "id": "hc01",
+          "name": "Espresso",
+          "description": "Concentrated coffee shot.",
+          "price": 199,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "hc02",
+          "name": "Doppio",
+          "description": "Double shot of espresso.",
+          "price": 279,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "hc03",
+          "name": "Americano",
+          "description": "Espresso diluted with hot water.",
+          "price": 229,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "hc04",
+          "name": "Macchiato",
+          "description": "Espresso with a dash of milk foam.",
+          "price": 249,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "hc05",
+          "name": "Cappuccino",
+          "description": "Espresso with steamed milk foam.",
+          "price": 199,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "hc06",
+          "name": "Latte",
+          "description": "Espresso with steamed milk.",
+          "price": 199,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "hc07",
+          "name": "Mocha",
+          "description": "Espresso with chocolate and steamed milk.",
+          "price": 229,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "hc08",
+          "name": "Hot Chocolate",
+          "description": "Rich hot chocolate drink.",
+          "price": 289,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Iced Coffee",
+      "items": [
+        {
+          "id": "ic01",
+          "name": "Iced Americano",
+          "description": "Chilled americano over ice.",
+          "price": 209,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ic02",
+          "name": "Coffee Tonic",
+          "description": "Espresso poured over tonic water.",
+          "price": 229,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ic03",
+          "name": "Black Mojito",
+          "description": "Iced coffee twist on the classic mojito.",
+          "price": 269,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ic04",
+          "name": "Affogato",
+          "description": "Espresso poured over ice\u2011cream.",
+          "price": 249,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ic05",
+          "name": "Iced Mocha",
+          "description": "Iced coffee blended with chocolate.",
+          "price": 269,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "ic06",
+          "name": "Vietnamese Iced Coffee",
+          "description": "Strong coffee over condensed milk and ice.",
+          "price": 299,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Matcha Bar",
+      "items": [
+        {
+          "id": "mb01",
+          "name": "Iced Matcha Latte",
+          "description": "Chilled matcha latte.",
+          "price": 299,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mb02",
+          "name": "Vanilla Oat Milk Matcha Iced Latte",
+          "description": "Matcha latte with oat milk and vanilla.",
+          "price": 349,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mb03",
+          "name": "Coconut Matcha Iced Latte",
+          "description": "Matcha latte with coconut milk.",
+          "price": 379,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mb04",
+          "name": "Mixberry Matcha Iced Latte",
+          "description": "Matcha latte with mixed berry flavors.",
+          "price": 399,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mb05",
+          "name": "Matcha Latte (Hot)",
+          "description": "Hot matcha latte.",
+          "price": 299,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mb06",
+          "name": "Dirty (Espresso) Matcha Latte (Hot)",
+          "description": "Matcha latte with a shot of espresso.",
+          "price": 329,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [
+            "dairy"
+          ],
+          "diet_labels": [
+            "vegetarian"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        }
+      ]
+    },
+    {
+      "name": "Mocktails",
+      "items": [
+        {
+          "id": "mk01",
+          "name": "Virgin Mojito",
+          "description": "Mint, lime and soda mocktail.",
+          "price": 299,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mk02",
+          "name": "Ice Tea",
+          "description": "Refreshing iced tea.",
+          "price": 249,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mk03",
+          "name": "Fruit Symphony",
+          "description": "Medley of fruit juices.",
+          "price": 299,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mk04",
+          "name": "Alphonso Cooler",
+          "description": "Cooler made with alphonso mango.",
+          "price": 299,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mk05",
+          "name": "Ginger Beer",
+          "description": "Fermented ginger drink.",
+          "price": 299,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mk06",
+          "name": "Nightingale Cosmopolitan",
+          "description": "Cranberry and citrus mocktail.",
+          "price": 299,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mk07",
+          "name": "Lovers",
+          "description": "Refreshing fruit mocktail.",
+          "price": 399,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mk08",
+          "name": "Fruit Punch",
+          "description": "Mixed fruit punch.",
+          "price": 399,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mk09",
+          "name": "Fresh Fruit Mojito",
+          "description": "Fruit mojito with seasonal fruits.",
+          "price": 399,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mk10",
+          "name": "Litchiini",
+          "description": "Lychee flavored mocktail.",
+          "price": 399,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
+        },
+        {
+          "id": "mk11",
+          "name": "Yuzu Basil Punch",
+          "description": "Refreshing punch with yuzu and basil.",
+          "price": 329,
+          "course": "beverage",
+          "ingredients": [],
+          "allergens": [],
+          "diet_labels": [
+            "vegan"
+          ],
+          "spice_level": 0,
+          "macros": {}
         }
       ]
     }
