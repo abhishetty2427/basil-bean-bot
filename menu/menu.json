@@ -1,0 +1,50 @@
+{
+  "restaurant": "Basil & Beans",
+  "currency": "INR",
+  "sections": [
+    {
+      "name": "Starters",
+      "items": [
+        {
+          "id": "st01",
+          "name": "Peri Peri Cottage Cheese Bites",
+          "description": "Cottage cheese bites tossed in peri-peri.",
+          "price": 320,
+          "ingredients": ["cottage cheese", "peri-peri spice", "cornflour", "oil", "salt"],
+          "diet_labels": ["vegetarian"],
+          "spice_level": 3,
+          "macros": { "kcal": 380, "protein_g": 18, "carbs_g": 24, "fat_g": 22 }
+        }
+      ]
+    },
+    {
+      "name": "Mains",
+      "items": [
+        {
+          "id": "mn11",
+          "name": "Thai Basil Stir-Fry Veg",
+          "description": "Wok-tossed vegetables, basil, chili, jasmine rice",
+          "price": 420,
+          "ingredients": ["mixed vegetables", "basil", "soy sauce", "chili", "garlic", "rice"],
+          "diet_labels": ["vegetarian"],
+          "spice_level": 2,
+          "macros": { "kcal": 520, "protein_g": 16, "carbs_g": 78, "fat_g": 14 }
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "items": [
+        {
+          "id": "ds05",
+          "name": "Chocolate Mousse",
+          "description": "Dark chocolate mousse topped with sea salt",
+          "price": 260,
+          "ingredients": ["dark chocolate", "cream", "sugar", "sea salt"],
+          "diet_labels": ["vegetarian"],
+          "macros": { "kcal": 310, "protein_g": 6, "carbs_g": 28, "fat_g": 20 }
+        }
+      ]
+    }
+  ]
+}
