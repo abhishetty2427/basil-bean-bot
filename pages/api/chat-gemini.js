@@ -64,8 +64,10 @@ Host:`;
           }]
         }],
         generationConfig: {
-          temperature: 0.7,
+          temperature: 0.2,
           maxOutputTokens: 500,
+          topP: 0.8,
+          topK: 10,
         }
       }),
     });
